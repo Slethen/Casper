@@ -27,10 +27,6 @@ into the {body} of the default.hbs template --}}
                 <h1 class="post-full-title">{{title}}</h1>
             </header>
 
-            <section class="post-full-content">
-                {{content}}
-            </section>
-
             {{!-- Email subscribe form at the bottom of the page --}}
             {{#if @labs.subscribers}}
             <section class="subscribe-form">
